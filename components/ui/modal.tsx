@@ -40,7 +40,7 @@ import {
               {description}
             </DialogDescription>
           </DialogHeader>
-          <div>
+          <div suppressHydrationWarning>
             {children}
           </div>
         </DialogContent>

@@ -6,11 +6,13 @@ import { Modal } from "@/components/ui/modal";
 
 const SetupPage=()=> {
   return (
-    <div className="p-4">
-    <Modal title="Test" description="Test Desc"   isOpen onClose={()=>{}} >
+    <div >
+    <Modal  title="Test" description="Test Desc" isOpen onClose={()=>{}}  >
+    
       Children
+      
       </Modal>
-     </div>
+      </div>
   )
 }
 export default SetupPage;
