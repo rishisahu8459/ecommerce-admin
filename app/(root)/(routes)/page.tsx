@@ -1,6 +1,6 @@
 "use client"
 import { Button } from "@/components/ui/button";
-import Page from './../(auth)/(routes)/sign-up/[[...sign-up]]/page';
+import Page from '../../(auth)/(routes)/sign-up/[[...sign-up]]/page';
 import { UserButton } from "@clerk/nextjs";
 import { Modal } from "@/components/ui/modal";
 import { useStoreModal } from "@/hooks/use-store-modal";
@@ -15,11 +15,6 @@ const SetupPage=()=> {
       onOpen();
     }
   }, [isOpen, onOpen]);
-  return (
-    <div >
-    
-
-      </div>
-  )
-}
+  return null;
+};
 export default SetupPage;
