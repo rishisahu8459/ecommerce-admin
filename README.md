@@ -2,7 +2,6 @@
 
 A multi-store e-commerce admin platform. One admin dashboard manages several independent stores or chains, with sales statistics and charts for each one.
 
-![Dashboard](public/[TODO: screenshot filename])
 
 ## Features
 
